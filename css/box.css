@@ -1,0 +1,59 @@
+/*通用样式开始*/
+*{
+	margin:0;
+	padding:0;
+}
+/*通用样式结束*/
+.box{
+	border-radius:25px;
+	width:1200px;
+	height:500px;
+	margin:50px auto;
+}
+.box_left{
+	width:300px;
+	height:500px;
+	float:left;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color:#bab6b6;
+}
+.box_left ul {
+	margin:40px auto;
+	list-style:none;
+	text-align:center;
+}
+.box_left ul li span{
+	text-align:center;
+	/*position:relative;*/
+	display:block;
+	margin-left:20px;
+	font-size:20px;
+	border-radius:5px;
+	color:#0a0404;
+	width:250px;
+	margin-top:20px;
+	line-height:40px;
+	height:40px;
+	background-color:#e1e1ff;
+}
+.box_left ul li>ul{
+	list-style:none;
+	/*position:absolute;
+	top:100px;
+	left:190px;*/
+	width:250px;
+	background-color:red;
+}
+.box_right{
+	text-align:center;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-size:25px;
+	line-height:500px;
+	color:#604d4d;
+	background-color:#d3c9c9;
+	width:900px;
+	height:500px;
+	float:right;
+}
